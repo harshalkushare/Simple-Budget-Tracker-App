@@ -43,7 +43,7 @@ function ExpenseForm({ addExpense }) {
         <label>
           Category:
           <select value={expenseCategory} onChange={handleCategoryChange}>
-            <option value="">-- Select Category --</option>
+            <option value="">Select Category</option>
             <option value="Food">Food</option>
             <option value="Entertainment">Entertainment</option>
             <option value="Transport">Transport</option>
@@ -57,3 +57,4 @@ function ExpenseForm({ addExpense }) {
 }
 
 export default ExpenseForm;
+
